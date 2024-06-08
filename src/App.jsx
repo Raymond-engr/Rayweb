@@ -17,7 +17,7 @@ function App() {
     <div>
       <h1>Todo App</h1>
       <Input setTodos={setTodos} />
-      <Todos todos={todos} />
+      <Todos todos={todos} setTodos={setTodos} />
     </div>
   )
 }
